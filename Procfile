@@ -1,1 +1,1 @@
-web: java -jar target/rpg-1.0.0.jar --server.port=${PORT}
+web: java -Xmx300m -jar target/app.jar --server.port=${PORT}
