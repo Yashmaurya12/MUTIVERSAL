@@ -1,1 +1,1 @@
-web: java -Xmx300m -jar target/app.jar --server.port=${PORT}
+web: java -Xmx300m -Dserver.port=${PORT} -jar target/app.jar
