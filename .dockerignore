@@ -1,0 +1,9 @@
+target/
+!target/*.jar
+.git/
+.gitignore
+.vscode/
+.mvn/
+mvnw
+mvnw.cmd
+*.md
